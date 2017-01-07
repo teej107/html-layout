@@ -1,0 +1,41 @@
+.nomargin
+{
+    margin: 0 0 0 0;
+}
+
+.maxsize
+{
+    width: 100%;
+    height: 100%;
+}
+
+#topcontainer
+{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+
+.col
+{
+    height: 100%;
+    width: 33%;
+    position: relative;
+}
+
+#image
+{
+    position: absolute;
+    padding-top: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
